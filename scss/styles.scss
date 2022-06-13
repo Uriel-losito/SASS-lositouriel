@@ -1,0 +1,15 @@
+     /*variables*/
+
+$body : beige;
+$header: grey;
+$main : #e1baac;
+$footer: #a9a3a3;
+
+
+     /*import*/
+
+@import "_body.scss" ;
+@import "content_header" ;
+@import "content_main" ;
+@import "content_footer" ;
+ 

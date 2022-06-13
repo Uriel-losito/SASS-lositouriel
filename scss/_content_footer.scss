@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: 170px;
+    background-color: $footer;
+    border: 1px solid black;
+    h4 {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+}

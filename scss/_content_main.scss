@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 550px;
+    margin: 20px;
+    align-items: center;
+    gap: 40px;
+    p{
+        background-color: $main;
+    }
+}
