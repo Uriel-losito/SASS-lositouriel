@@ -1,4 +1,4 @@
-     /*variables*/
+      /*variables*/
 
 $body : beige;
 $header: grey;
@@ -6,10 +6,34 @@ $main : #e1baac;
 $footer: #a9a3a3;
 
 
-     /*import*/
+      /*import*/
 
 @import "_body.scss" ;
 @import "content_header" ;
 @import "content_main" ;
 @import "content_footer" ;
- 
+
+
+      /* mixin */
+
+@mixin content-caja ($body, $main){
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: 600px;
+      align-items: center;
+      background-color: $body ;
+
+      .sub_title{
+        text-align: center;
+        background: black;
+        color: white;
+        }
+        p{
+         background-color: $main;
+      
+      }
+
+ }    
+
+

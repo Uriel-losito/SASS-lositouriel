@@ -11,7 +11,7 @@ header {
   display: flex;
   background: grey;
   width: auto;
-  height: 200px;
+  height: 250px;
   flex-direction: column;
   align-items: center;
   border: 1px solid black; }
@@ -48,12 +48,26 @@ main {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 550px;
+  height: 1050px;
   margin: 20px;
   align-items: center;
   gap: 40px; }
-  main p {
-    background-color: #e1baac; }
+  main div {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 600px;
+    align-items: center; }
+    main div .sub_title, main div h2 {
+      text-align: center;
+      background: black;
+      color: white; }
+    main div p {
+      background-color: #e1baac; }
+    main div h2 {
+      width: 400px;
+      height: 50px;
+      padding-top: 6px; }
 
 footer {
   display: flex;
@@ -68,3 +82,5 @@ footer {
     display: flex;
     align-items: center;
     font-size: 18px; }
+
+/* mixin */

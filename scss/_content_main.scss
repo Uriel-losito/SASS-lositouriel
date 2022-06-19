@@ -2,11 +2,18 @@ main{
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 550px;
+    height: 1050px;
     margin: 20px;
     align-items: center;
     gap: 40px;
-    p{
-        background-color: $main;
+    div {
+         @include content-caja ($body, $main)
     }
-}
+    h2{
+        width: 400px;
+        height: 50px;
+        padding-top: 6px;
+        @extend .sub_title
+        
+    }
+    }
